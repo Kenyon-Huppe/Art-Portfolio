@@ -5,6 +5,10 @@
     text-align: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 li {
     list-style: none;
 }
@@ -123,4 +127,55 @@ p {
     display: block;
     margin-top: 1em;
     color: #509ee7;
+}
+
+.btn {
+    font-size: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #237df1;
+    border-radius: 50%;
+    width: 7em;
+    /* height: 1.9em; */
+    color: #fff;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fff;
+    color: #237df1;
+    outline: 3px solid #237df1;
+    font-size: 1.9em;
+}
+
+footer {
+    position: relative;
+}
+
+#to-top {
+    position: absolute;
+    float: right;
+    margin: 0em 2em 1.2em;
+    bottom: 0;
+    right: 0;
+    width: 110px;
+    height: 110px;
+}
+
+#to-top a {
+    width: 100px;
+    padding: 40px;
+    position: absolute;
+}
+
+.btn-text {
+    color: #ffffff;
+}
+
+#to-top:hover span {
+    color: #237df1;
 }
