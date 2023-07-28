@@ -22,19 +22,16 @@ a {
     background: linear-gradient(to top, #f17070, #717cf1);
 }
 
-#about-container {
-    height: 100vh;
-}
-
 #index-container {
     height: 100vh;
     background: none;
-}
-
-#index-container {
     background-image: url('./images/Favorites/Ranger.png');
     background-size: cover;
     background-position: 50% 45%;
+}
+
+#total-vh-container {
+    height: 100vh;
 }
 
 .nav-bar {
@@ -46,7 +43,7 @@ a {
 
 .nav-element a {
     /* margin: 1em; */
-    padding: 0.25em 2em;
+    padding: 0.25em 1.25em;
     color: #ffffff;
     font-size: 25px;
     background-color: rgba(25, 145, 224, 0.288);
@@ -55,7 +52,7 @@ a {
 }
 
 .nav-element a:hover {
-    background-color: rgb(16, 95, 148);
+    background-color: rgb(16, 95, 148, 0.75);
 }
 
 main {}
@@ -73,6 +70,12 @@ img {
     border: 3px solid #daa520;
 }
 
+.content-container {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 10em;
+}
+
 .profile-container {
     position: relative;
     width: 300px;
@@ -80,15 +83,26 @@ img {
     overflow: hidden;
     border-radius: 50%;
     border: 3px solid #daa520;
-    margin: 3em auto 0;
+    margin: 1em auto;
 }
 
-#profile-pic {
+#profile-statement-container {
+    margin: 1em;
+    float: left;
+}
+
+.profile-pic {
     position: absolute;
     top: -220px;
     left: -80px;
     border: none;
     margin: -500px, 100;
+}
+
+#statement-profile-pic {
+    width: 102%;
+    top: -100px;
+    left: -50px;
 }
 
 .img-container {
@@ -109,10 +123,23 @@ img {
     margin-top: 1em;
 }
 
+#statement-title {
+    position: absolute;
+}
+
+.statement-text {
+    width: 80%;
+    margin: 1em 0 0 1em;
+}
+
 p {
-    width: 40%;
-    margin: 2em auto 0;
+    width: 60%;
+    margin: 1em auto 0;
     font-size: 20px;
+}
+
+#last-text {
+    padding-bottom: 2em;
 }
 
 #primary-title {
@@ -167,8 +194,8 @@ footer {
 }
 
 #to-top a {
-    width: 100px;
-    padding: 40px;
+    width: 60px;
+    padding: 20px;
     position: absolute;
 }
 
